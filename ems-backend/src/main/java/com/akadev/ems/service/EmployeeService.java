@@ -2,8 +2,16 @@ package com.akadev.ems.service;
 
 import com.akadev.ems.dto.EmployeeDto;
 
-public interface EmployeeService {
+import java.util.List;
 
+public interface EmployeeService {
     EmployeeDto createEmployee(EmployeeDto employeeDto);
 
+    EmployeeDto getEmployeeById (Long employeeId);
+
+    List<EmployeeDto> getAllEmployees();
+
+    EmployeeDto updateEmployee(Long employeeId, EmployeeDto updateEmployee);
+
+    void deleteEmployee (Long employeeId);
 }
