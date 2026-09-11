@@ -1,7 +1,7 @@
 function HelloWorld() { 
     return (
         <>
-        <h1>Welcome to the EMS Frontend application.</h1>
+        <h1 className="text-center">Welcome to the EMS Frontend application.</h1>
         </>
     )      
 }
